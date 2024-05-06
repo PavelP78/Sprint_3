@@ -1,2 +1,5 @@
-URL="https://stellarburgers.nomoreparties.site/"
-RESOLUTION=1920,920
+
+class StellarBurgersResolution:
+
+
+    RESOLUTION=1920,720
