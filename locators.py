@@ -26,7 +26,8 @@ class StellarBurgersLocators:
     REGISTRATION_BUTTON_REGISTRATION = (By.XPATH, '//button[text()="Зарегистрироваться"]') # Кнопка зарегистрироваться на странице регистрации
     ERROR_PASSWORD_REGISTRATION= (By.XPATH, '//p[text()="Некорректный пароль"]') # Надпись некорректный пароль на странице регистрации
     ROLLS_PICTURE = (By.XPATH, '//a[@href="/ingredient/61c0c5a71d1f82001bdaaa6d"]') # Картинка флюоресцентная булка
-    ROLLS_ELEMENT = (By.XPATH, '//div[@class="BurgerIngredients_ingredients__menuContainer__Xu3Mo"]') # Меню булки после клика на Булки
+    ROLLS_SELECT = (By.XPATH, '//div[@class="tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"]') # Меню булки после клика на Булки
+    CURRENT_TAB = (By.XPATH, '//div[contains(@class, "current")]/span') # Путь элементов с классом содержащих  current
     SOUCE_PICTURE = (By.XPATH, '//a[@href="/ingredient/61c0c5a71d1f82001bdaaa72"]') # Картинка соус Spisy-x
     FILLING_PICTURE = (By.XPATH, '//a[@href="/ingredient/61c0c5a71d1f82001bdaaa70"]') # Картинка начинки говяжий метеорит
     SAVE_BUTTON= (By.XPATH, '//button[text()="Сохранить"]') # Кнопка сохранить
