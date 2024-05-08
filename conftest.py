@@ -5,7 +5,7 @@ from data import StellarBurgersUrl as Url
 
 def browser_setting():
      chrome_option = webdriver.ChromeOptions()
-     chrome_option.add_argument(f'--window size={Resolution.RESOLUTION[0]},{Resolution.RESOLUTION[1]}')
+     chrome_option.add_argument(f'--window-size={Resolution.RESOLUTION[0]},{Resolution.RESOLUTION[1]}')
      return chrome_option
 
 @pytest.fixture
